@@ -12,6 +12,18 @@ consumes:
 produces:
   - application/json
 paths:
+  /:
+    get:
+      description: Returns all page data
+      responses:
+        "200":
+          description: Success
+          schema:
+            $ref: "#/definitions/Page"
+        default:
+          description: Error
+          schema:
+            $ref: "#/definitions/ErrorResponse"
   /events:
     get:
       description: Returns all events
@@ -37,6 +49,44 @@ paths:
           schema:
             $ref: "#/definitions/ErrorResponse"
 definitions:
+  Page:
+    required:
+      - message
+    properties:
+      message:
+        type: string
+      profile:
+        type: string
+      properties:
+        type: array
+        items:
+          $ref: "#/definitions/Property"
+      events:
+        type: array
+        items:
+          $ref: "#/definitions/Event"
+  Property:
+    required:
+      - message
+    properties:
+      message:
+        type: string
+      owner:
+        $ref: "#/definitions/Owner"
+      address:
+        type: string
+      sqFt:
+        type: string
+      insuranceCompany:
+        type: string
+      cadastre:
+        type: string
+  Owner:
+    required:
+      - message
+    properties:
+      message:
+        type: string
   EventsOverview:
     required:
       - message
@@ -57,19 +107,27 @@ definitions:
         type: string
       property:
         $ref: "#/definitions/Property"
+      ownerGroup:
+        type: string
+        enum: ["legal", "admin", "owner", "builder", "insurance" ]
       timestamp:
         type: string
+  Cadastre:
+    properties:
+      source:
+        type: string # storage or CDN
+      type:
+        type: string
+        enum:
+          - plan
+          - pus
+          - acte notarial
+          - liste vendeurs
   User:
     required:
       - message
     properties:
       message:
-        type: string
-  Property:
-    required:
-      - guid
-    properties:
-      guid:
         type: string
   ErrorResponse:
     required:
