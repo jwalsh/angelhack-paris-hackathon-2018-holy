@@ -157,10 +157,14 @@ definitions:
           - liste vendeurs
   Insurance:
     properties:
+      key:
+        type: string
+      value:
+        type: string
       type:
         type: string
         enum:
-          - default
+          - insurance
   Builder:
     properties:
       type:
