@@ -1,0 +1,11 @@
+{
+  "user": {
+    "firstName": "Bob"
+  },
+  "properties": [
+    {
+      "name": "foo",
+      "transactions": [ ]
+    }
+  ]
+}
