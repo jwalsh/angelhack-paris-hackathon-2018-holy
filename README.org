@@ -10,6 +10,7 @@
 
 ** Models
 
+https://app.swaggerhub.com/apis/jwalsh1/attestation-of_housing_facts/0.0.1
 
 #+BEGIN_SRC sh
 swagger project start holy-spec
