@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Switch, Route, Redirect } from 'react-router';
 import { BrowserRouter as Router } from 'react-router-dom'
-import { Owner } from './routes/Owner.jsx';
+import { Admin } from './routes/Admin.jsx';
 import logo from './logo.svg';
 import './App.css';
 
@@ -11,9 +11,9 @@ class App extends Component {
       <Router>
         <div>
           <Route exact path='/' render={ () => {
-            <Redirect to='/owner' />
+            <Redirect to='/admin' />
             }} />
-          <Route path='/owner' component={Owner} />
+          <Route path='/admin' component={Admin} />
       </div>
       </Router>
     );

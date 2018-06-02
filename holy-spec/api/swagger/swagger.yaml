@@ -12,6 +12,18 @@ consumes:
 produces:
   - application/json
 paths:
+  /:
+    get:
+      description: Returns all page data
+      responses:
+        "200":
+          description: Success
+          schema:
+            $ref: "#/definitions/Page"
+        default:
+          description: Error
+          schema:
+            $ref: "#/definitions/ErrorResponse"
   /events:
     get:
       description: Returns all events
@@ -20,6 +32,18 @@ paths:
           description: Success
           schema:
             $ref: "#/definitions/EventsOverview"
+        default:
+          description: Error
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+  /properties:
+    get:
+      description: Returns all properties
+      responses:
+        "200":
+          description: Success
+          schema:
+            $ref: "#/definitions/PropertiesOverview"
         default:
           description: Error
           schema:
@@ -37,6 +61,56 @@ paths:
           schema:
             $ref: "#/definitions/ErrorResponse"
 definitions:
+  Page:
+    required:
+      - message
+    properties:
+      message:
+        type: string
+      profile:
+        $ref: "#/definitions/User"
+      properties:
+        type: array
+        items:
+          $ref: "#/definitions/Property"
+      events:
+        type: array
+        items:
+          $ref: "#/definitions/Event"
+  PropertiesOverview:
+    required:
+      - message
+    properties:
+      properties:
+        type: array
+        items:
+          $ref: "#/definitions/Owner"
+  Property:
+    required:
+      - message
+    properties:
+      id:
+        type: number
+      message:
+        type: string
+      name:
+        type: string
+      owner:
+        $ref: "#/definitions/Owner"
+      address:
+        type: string
+      sqFt:
+        type: string
+      insuranceCompany:
+        type: string
+      cadastre:
+        type: string
+  Owner:
+    required:
+      - message
+    properties:
+      message:
+        type: string
   EventsOverview:
     required:
       - message
@@ -50,14 +124,66 @@ definitions:
         items:
           $ref: "#/definitions/Event"
   Event:
+    allOf:
+      - $ref: '#/definitions/EventSummary'
+      - $ref: '#/definitions/Document'
+      - $ref: '#/definitions/Insurance'
+      - $ref: '#/definitions/Builder'
+  EventSummary:
     required:
-      - message
+      - timestamp
     properties:
-      message:
+      timestamp:
         type: string
       property:
         $ref: "#/definitions/Property"
-      timestamp:
+      type:
+        type: string
+        enum: ["document", "work", "insurance" ]
+      ownerGroup:
+        type: string
+        enum: ["legal", "admin", "owner", "builder", "insurance" ]
+  Document:
+    properties:
+      source:
+        type: string # storage or CDN
+      type:
+        type: string
+        enum:
+          - cadastre
+          - plan
+          - pus
+          - acte notarial
+          - liste vendeurs
+  Insurance:
+    properties:
+      key:
+        type: string
+      value:
+        type: string
+      type:
+        type: string
+        enum:
+          - insurance
+  Builder:
+    properties:
+      type:
+        type: string
+        enum:
+          - default
+          - foundation
+          - roof
+          - walls
+          - plumbing
+          - electric
+          - carpet
+      phone:
+        type: string
+      address:
+        type: string
+      insuranceCompany:
+        type: string
+      estimatedCost:
         type: string
   User:
     required:
@@ -65,11 +191,14 @@ definitions:
     properties:
       message:
         type: string
-  Property:
-    required:
-      - guid
-    properties:
-      guid:
+      firstName:
+        type: string
+      lastName:
+        type: string
+      role:
+        type: string
+        enum: ["legal", "admin", "owner", "builder", "insurance"]
+      username:
         type: string
   ErrorResponse:
     required:

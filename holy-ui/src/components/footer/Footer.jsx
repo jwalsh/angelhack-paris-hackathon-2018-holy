@@ -1,15 +1,19 @@
 import React, { Component } from 'react';
-import './Footer.css';
 
 const footerContainerStyle = {
+  position: 'fixed',
   minHeight: '100%',
-  marginBottom: '-50px',
-}
+  left: '220px',
+  top: '98%',
+  bottom: 0,
+  right: 0,
+};
 
 const footerStyle = {
   backgroundColor: '#BFEDC1',
   position: 'sticky',
-}
+  bottom: 0,
+};
 
 export class Footer extends Component {
   render() {

@@ -1,12 +1,18 @@
 import React, { Component } from 'react';
-import './Header.css';
+
+const headerStyle = {
+  padding: '10px 16px',
+  backgroundColor: '#B6C9BB',
+};
 
 export class Header extends Component {
   render() {
     return (
-      <header className='header'>
+      <header className='header' style={headerStyle}>
         <div className='header-title'>
-          Holy
+          <h1>
+            Holy
+          </h1>
         </div>
         <div className='header-logo'>
           Icon
