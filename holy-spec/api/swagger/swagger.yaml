@@ -1,45 +1,197 @@
+---
 swagger: "2.0"
 info:
-  version: "0.0.1"
+  version: 0.0.3
   title: Attestation of housing facts
-host: localhost:10010
+host: virtserver.swaggerhub.com
 basePath: /
 schemes:
-  - http
-  - https
+- https
 consumes:
-  - application/json
+- application/json
 produces:
-  - application/json
+- application/json
 paths:
+  /:
+    get:
+      description: Returns all page data
+      parameters: []
+      responses:
+        200:
+          description: Success
+          schema:
+            $ref: '#/definitions/Page'
+        default:
+          description: Error
+          schema:
+            $ref: '#/definitions/ErrorResponse'
   /events:
     get:
       description: Returns all events
+      parameters: []
       responses:
-        "200":
+        200:
           description: Success
           schema:
-            $ref: "#/definitions/EventsOverview"
+            $ref: '#/definitions/EventsOverview'
         default:
           description: Error
           schema:
-            $ref: "#/definitions/ErrorResponse"
+            $ref: '#/definitions/ErrorResponse'
+  /properties:
+    get:
+      description: Returns all properties
+      parameters: []
+      responses:
+        200:
+          description: Success
+          schema:
+            $ref: '#/definitions/PropertiesOverview'
+        default:
+          description: Error
+          schema:
+            $ref: '#/definitions/ErrorResponse'
   /profile:
     get:
       description: Returns user profile
+      parameters: []
       responses:
-        "200":
+        200:
           description: Success
           schema:
-            $ref: "#/definitions/User"
+            $ref: '#/definitions/User'
         default:
           description: Error
           schema:
-            $ref: "#/definitions/ErrorResponse"
+            $ref: '#/definitions/ErrorResponse'
 definitions:
+  Page:
+    required:
+    - message
+    properties:
+      message:
+        type: string
+      profile:
+        $ref: '#/definitions/User'
+      properties:
+        type: array
+        items:
+          $ref: '#/definitions/Property'
+      events:
+        type: array
+        items:
+          $ref: '#/definitions/Event'
+    example:
+      profile:
+        firstName: firstName
+        lastName: lastName
+        role: legal
+        message: message
+        username: username
+      message: message
+      properties:
+      - owner:
+          message: message
+        image: image
+        rooms: 6.02745618307040320615897144307382404804229736328125
+        address: address
+        stairs: 1.46581298050294517310021547018550336360931396484375
+        gps: gps
+        message: message
+        cadastre: cadastre
+        name: name
+        sqFt: sqFt
+        buildingHistory: buildingHistory
+        id: 0.80082819046101150206595775671303272247314453125
+        plan: plan
+        insuranceCompany: insuranceCompany
+      - owner:
+          message: message
+        image: image
+        rooms: 6.02745618307040320615897144307382404804229736328125
+        address: address
+        stairs: 1.46581298050294517310021547018550336360931396484375
+        gps: gps
+        message: message
+        cadastre: cadastre
+        name: name
+        sqFt: sqFt
+        buildingHistory: buildingHistory
+        id: 0.80082819046101150206595775671303272247314453125
+        plan: plan
+        insuranceCompany: insuranceCompany
+      events:
+      - ""
+      - ""
+  PropertiesOverview:
+    properties:
+      properties:
+        type: array
+        items:
+          $ref: '#/definitions/Owner'
+    example:
+      properties:
+      - message: message
+      - message: message
+  Property:
+    required:
+    - message
+    properties:
+      id:
+        type: number
+      message:
+        type: string
+      name:
+        type: string
+      owner:
+        $ref: '#/definitions/Owner'
+      address:
+        type: string
+      gps:
+        type: string
+      rooms:
+        type: number
+      stairs:
+        type: number
+      image:
+        type: string
+      plan:
+        type: string
+      sqFt:
+        type: string
+      buildingHistory:
+        type: string
+      insuranceCompany:
+        type: string
+      cadastre:
+        type: string
+    example:
+      owner:
+        message: message
+      image: image
+      rooms: 6.02745618307040320615897144307382404804229736328125
+      address: address
+      stairs: 1.46581298050294517310021547018550336360931396484375
+      gps: gps
+      message: message
+      cadastre: cadastre
+      name: name
+      sqFt: sqFt
+      buildingHistory: buildingHistory
+      id: 0.80082819046101150206595775671303272247314453125
+      plan: plan
+      insuranceCompany: insuranceCompany
+  Owner:
+    required:
+    - message
+    properties:
+      message:
+        type: string
+    example:
+      message: message
   EventsOverview:
     required:
-      - message
+    - message
     properties:
       message:
         type: string
@@ -48,32 +200,121 @@ definitions:
       events:
         type: array
         items:
-          $ref: "#/definitions/Event"
+          $ref: '#/definitions/Event'
+    example:
+      description: description
+      message: message
+      events:
+      - ""
+      - ""
   Event:
+    allOf:
+    - $ref: '#/definitions/EventSummary'
+    - $ref: '#/definitions/Document'
+    - $ref: '#/definitions/Insurance'
+    - $ref: '#/definitions/Builder'
+  EventSummary:
     required:
-      - message
+    - timestamp
     properties:
-      message:
+      timestamp:
         type: string
       property:
-        $ref: "#/definitions/Property"
-      timestamp:
+        $ref: '#/definitions/Property'
+      type:
+        type: string
+        enum:
+        - document
+        - work
+        - insurance
+      ownerGroup:
+        type: string
+        enum:
+        - legal
+        - admin
+        - owner
+        - builder
+        - insurance
+  Document:
+    properties:
+      source:
+        type: string
+      type:
+        type: string
+        enum:
+        - cadastre
+        - plan
+        - pus
+        - acte notarial
+        - liste vendeurs
+  Insurance:
+    properties:
+      type:
+        type: string
+        enum:
+        - default
+  Builder:
+    properties:
+      type:
+        type: string
+        enum:
+        - default
+        - foundation
+        - roof
+        - walls
+        - plumbing
+        - electric
+        - carpet
+      room:
+        type: string
+        enum:
+        - unknown
+        - kitchen
+        - bathroom
+        - dining room
+        - basement
+        - master bedroom
+        - room 1
+        - room 2
+        - room 3
+        - room 4
+      phone:
+        type: string
+      address:
+        type: string
+      insuranceCompany:
+        type: string
+      estimatedCost:
         type: string
   User:
     required:
-      - message
+    - message
     properties:
       message:
         type: string
-  Property:
-    required:
-      - guid
-    properties:
-      guid:
+      firstName:
         type: string
+      lastName:
+        type: string
+      role:
+        type: string
+        enum:
+        - legal
+        - admin
+        - owner
+        - builder
+        - insurance
+      username:
+        type: string
+    example:
+      firstName: firstName
+      lastName: lastName
+      role: legal
+      message: message
+      username: username
   ErrorResponse:
     required:
-      - message
+    - message
     properties:
       message:
         type: string
