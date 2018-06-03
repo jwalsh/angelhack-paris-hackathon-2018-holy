@@ -33,7 +33,7 @@ export class Admin extends Component {
           <td><b>{ event.property.name}</b></td>
           <td>{ event.estimatedCost} </td>
           <td>{ event.ownerGroup} </td>
-          <td>{ event.type} </td>
+          <td>{ event.key} </td>
           <td>{ event.value} </td>
         </tr>
     );
@@ -51,7 +51,7 @@ export class Admin extends Component {
         <th>Property</th>
         <th>Estimated Cost</th>
         <th>Owner Group</th>
-        <th>Type</th>
+        <th>Key</th>
         <th>Value</th>
         </tr>
         { config.Page.events.map(event => this.renderEvent(event)) }
