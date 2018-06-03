@@ -49,11 +49,10 @@ export class Admin extends Component {
       return (
         <tr key={event.property.id}>
           <td><pre>{ event.timestamp}</pre></td>
-          <td><b>{ event.property.id}</b></td>
-          <td>{ event.insuranceCompany} </td>
+          <td><b>{ event.property.name}</b></td>
+          <td>{ event.estimatedCost} </td>
           <td>{ event.ownerGroup} </td>
-          <td>{ event.source} </td>
-          <td>{ event.type} </td>
+          <td>{ event.key} </td>
           <td>{ event.value} </td>
         </tr>
     );

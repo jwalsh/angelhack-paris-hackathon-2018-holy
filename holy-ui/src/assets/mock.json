@@ -1,1 +1,613 @@
-{"Page":{"message":"eu aute","profile":{"message":"ipsum fugiat id","firstName":"velit","lastName":"dolore sint voluptate","role":"admin","username":"m"},"events":[{"timestamp":"2018-06-03T09:10:12.129Z","property":{"id":92879715,"message":"ad qui occaecat in","name":"eiusmod","owner":{"message":"reprehenderit labore tempor"},"address":"ut ea dolore aliquip Lorem","sqFt":"exerci","insuranceCompany":"ipsum dolor laborum sint ea","cadastre":"in pariatur aliqua et"},"type":"foundation","ownerGroup":"insurance","source":"amet tem","key":"cupidatat","value":"officia exercitation aliquip","phone":"dolor","address":"irure Excepteur consequat incididunt enim","insuranceCompany":"esse consequat in","estimatedCost":"ut"},{"timestamp":"2018-06-03T10:07:53.450Z","property":{"id":-23615137,"message":"cillum dolor","name":"incididunt fugiat et ex aliqua","owner":{"message":"cillum fugiat pariatur qui eiusmod"},"address":"voluptate officia culpa","sqFt":"laboris velit tempor quis","insuranceCompany":"quis consequat","cadastre":"Ut mollit"},"type":"document","ownerGroup":"owner","source":"elit consequa","key":"amet anim et est","value":"Duis Lorem et enim","phone":"labo","address":"ut eiusmod tempor","insuranceCompany":"ut veniam tempor","estimatedCost":"volu"},{"timestamp":"2018-06-03T10:11:30.211Z","property":{"id":57492069,"message":"dolor ut irure dolore","name":"esse fugiat anim","owner":{"message":"nostrud nulla occaecat"},"address":"in ut irure","sqFt":"veniam minim Ut dolore","insuranceCompany":"cillum Lorem in","cadastre":"exercitation reprehenderit in sun"},"type":"plan","ownerGroup":"owner","source":"sit dolore aute irure do","key":"id dolor nisi ea nulla","value":"elit in dolor ipsum","phone":"in sint","address":"exercitation enim","insuranceCompany":"dolor","estimatedCost":"dolor"},{"timestamp":"2018-06-03T10:17:02.553Z","property":{"id":-32060107,"message":"minim tempor cupidatat nisi","name":"dolore","owner":{"message":"laboris labore ad"},"address":"veniam anim officia","sqFt":"consequ","insuranceCompany":"fugiat Ut consectetur","cadastre":"i"},"type":"default","ownerGroup":"builder","source":"adipisicing dolor ad","key":"dolor quis ut in sunt","value":"Lorem","phone":"velit cillum consequat id","address":"in Excepteur commodo","insuranceCompany":"pariatur veniam aute Excepteur","estimatedCost":"laborum Lorem irure ut amet"},{"timestamp":"2018-06-03T11:44:54.780Z","property":{"id":23719545,"message":"occaecat sit","name":"laboris","owner":{"message":"cillum fugiat veniam dolor aute"},"address":"eu nostrud do","sqFt":"sit incididunt aliqua labore","insuranceCompany":"est consequat Ut ipsum sit","cadastre":"magna e"},"type":"insurance","ownerGroup":"insurance","source":"tempor consectetur aliquip et","key":"aliqua pariatur","value":"Lorem deserunt","phone":"aute dolore magna","address":"anim reprehenderit","insuranceCompany":"nisi culpa cupidatat elit","estimatedCost":"Excepteur"}]},"PropertiesOverview":{"properties":[{"message":"sed"},{"message":"dolore pariatur"}]},"Property":{"id":64272729,"message":"adipis","name":"aute pariatur aliquip","owner":{"message":"ut Lorem irure magna dolore"},"address":"Excepteur Duis ut cupidatat","sqFt":"enim cillum tempor exercitation","insuranceCompany":"elit sit","cadastre":"magna anim dolore sit"},"Owner":{"message":"Duis"},"EventsOverview":{"message":"velit","description":"fugiat consequat","events":[{"timestamp":"est sunt","property":{"id":-66720597,"message":"quis aliquip","name":"dolore","owner":{"message":"consequat esse laborum amet velit"},"address":"elit","sqFt":"pariatur o","insuranceCompany":"sint ex occaecat ea","cadastre":"exercitation voluptate"},"type":"electric","ownerGroup":"owner","source":"in","key":"officia aute tempor exercitation ut","value":"id sit do consequat eu","phone":"exercitation","address":"pariatur","insuranceCompany":"dolor occaecat","estimatedCost":"ullamco exercitation lab"}]},"Event":{"timestamp":"nulla laboris culpa dolor adipisicing","property":{"id":98569400,"message":"pariatur","name":"Ut","owner":{"message":"sed ea in dolore est"},"address":"Duis nulla ut","sqFt":"eu nulla aute","insuranceCompany":"elit in","cadastre":"occaecat ea non"},"type":"work","ownerGroup":"legal","source":"cillum","key":"mollit","value":"elit","phone":"deserunt aute ipsum exercitation","address":"anim dolore sit Lorem","insuranceCompany":"Lorem est","estimatedCost":"nisi ipsum est dolore Lorem"},"EventSummary":{"timestamp":"anim sint","property":{"id":-37021417,"message":"occaecat in eu","name":"occaecat quis voluptate","owner":{"message":"consectetur dolore tempor"},"address":"id","sqFt":"in enim est reprehenderit consequat","insuranceCompany":"veniam","cadastre":"Lorem"},"type":"document","ownerGroup":"builder"},"Document":{"source":"laboris exercitation","type":"acte notarial"},"Insurance":{"key":"nulla non sed","value":"consectetur anim nostrud ea","type":"insurance"},"Builder":{"type":"walls","phone":"ipsum do exercitation esse aute","address":"id","insuranceCompany":"do cillum labore","estimatedCost":"irure magn"},"User":{"message":"nostrud adipisicing do nisi pariatur","firstName":"in aute elit id nisi","lastName":"Ut","role":"builder","username":"ut do"},"ErrorResponse":{"message":"ullamco nostrud"}}
+{
+  "Page": {
+    "message": "nostrud aute nulla dolor",
+    "profile": {
+      "message": "adipisicing non",
+      "firstName": "Noemy",
+      "lastName": "Christiansen",
+      "role": "insurance",
+      "username": "Lois.Hayes"
+    },
+    "events": [
+      {
+        "timestamp": "2018-06-03T16:54:56.590Z",
+        "property": {
+          "id": 44912204,
+          "message": "voluptate ad cill",
+          "name": "77663 Prosacco Stream",
+          "owner": {
+            "message": "cillum "
+          },
+          "address": "aliqua sint",
+          "sqFt": "ea elit",
+          "insuranceCompany": "mollit incididunt ex",
+          "cadastre": "consect"
+        },
+        "type": "pus",
+        "ownerGroup": "builder",
+        "source": "dolor",
+        "key": "repair",
+        "value": "window",
+        "phone": "adipisicing incididunt eu",
+        "address": "sunt dolore dolor cupidatat",
+        "insuranceCompany": "elit",
+        "estimatedCost": "470.00"
+      },
+      {
+        "timestamp": "2018-06-03T17:39:13.804Z",
+        "property": {
+          "id": 20327437,
+          "message": "adipisicing",
+          "name": "9847 Block Crossing",
+          "owner": {
+            "message": "adipisicing enim exercitation pariatur in"
+          },
+          "address": "elit nisi eiusmod sit laborum",
+          "sqFt": "ex qui aute",
+          "insuranceCompany": "aute",
+          "cadastre": "elit mollit in nisi"
+        },
+        "type": "work",
+        "ownerGroup": "legal",
+        "source": "id",
+        "key": "update",
+        "value": "cadastre",
+        "phone": "dolore adipisicing enim qui non",
+        "address": "ipsum aliqua reprehenderit",
+        "insuranceCompany": "ut Lorem ut",
+        "estimatedCost": ""
+      },
+      {
+        "timestamp": "2018-06-03T17:41:53.072Z",
+        "property": {
+          "id": -39273615,
+          "message": "deserunt fugiat minim aute veniam",
+          "name": "5813 Will Oval",
+          "owner": {
+            "message": "ad occaecat laboris aliqua mollit"
+          },
+          "address": "ipsum voluptate",
+          "sqFt": "in pariatur cupid",
+          "insuranceCompany": "aute consequat ex officia ut",
+          "cadastre": "ut Lorem incididunt"
+        },
+        "type": "foundation",
+        "ownerGroup": "legal",
+        "source": "adipisicing a",
+        "key": "add",
+        "value": "plan",
+        "phone": "id tem",
+        "address": "adipisicing non ",
+        "insuranceCompany": "dol",
+        "estimatedCost": ""
+      },
+      {
+        "timestamp": "2018-06-03T17:54:57.919Z",
+        "property": {
+          "id": -84686079,
+          "message": "ut",
+          "name": "1249 Bayer Tunnel",
+          "owner": {
+            "message": "sint"
+          },
+          "address": "nulla labore",
+          "sqFt": "in amet elit veniam sunt",
+          "insuranceCompany": "sit aliquip commodo",
+          "cadastre": "occaecat incididunt sint"
+        },
+        "type": "insurance",
+        "ownerGroup": "legal",
+        "source": "ea sed laboris sint sit",
+        "key": "update",
+        "value": "policy",
+        "phone": "ex",
+        "address": "cupidatat",
+        "insuranceCompany": "eiusmod mollit laboris dolore",
+        "estimatedCost": ""
+      },
+      {
+        "timestamp": "2018-06-03T16:54:56.590Z",
+        "property": {
+          "id": 44912204,
+          "message": "voluptate ad cill",
+          "name": "77663 Prosacco Stream",
+          "owner": {
+            "message": "cillum "
+          },
+          "address": "aliqua sint",
+          "sqFt": "ea elit",
+          "insuranceCompany": "mollit incididunt ex",
+          "cadastre": "consect"
+        },
+        "type": "pus",
+        "ownerGroup": "builder",
+        "source": "dolor",
+        "key": "repair",
+        "value": "carpet",
+        "phone": "adipisicing incididunt eu",
+        "address": "sunt dolore dolor cupidatat",
+        "insuranceCompany": "elit",
+        "estimatedCost": "470.00"
+      },
+      {
+        "timestamp": "2018-06-03T17:39:13.804Z",
+        "property": {
+          "id": 20327437,
+          "message": "adipisicing",
+          "name": "9847 Block Crossing",
+          "owner": {
+            "message": "adipisicing enim exercitation pariatur in"
+          },
+          "address": "elit nisi eiusmod sit laborum",
+          "sqFt": "ex qui aute",
+          "insuranceCompany": "aute",
+          "cadastre": "elit mollit in nisi"
+        },
+        "type": "work",
+        "ownerGroup": "legal",
+        "source": "id",
+        "key": "update",
+        "value": "acte notarial",
+        "phone": "dolore adipisicing enim qui non",
+        "address": "ipsum aliqua reprehenderit",
+        "insuranceCompany": "ut Lorem ut",
+        "estimatedCost": ""
+      },
+      {
+        "timestamp": "2018-06-03T17:41:53.072Z",
+        "property": {
+          "id": -39273615,
+          "message": "deserunt fugiat minim aute veniam",
+          "name": "5813 Will Oval",
+          "owner": {
+            "message": "ad occaecat laboris aliqua mollit"
+          },
+          "address": "ipsum voluptate",
+          "sqFt": "in pariatur cupid",
+          "insuranceCompany": "aute consequat ex officia ut",
+          "cadastre": "ut Lorem incididunt"
+        },
+        "type": "foundation",
+        "ownerGroup": "legal",
+        "source": "adipisicing a",
+        "key": "update",
+        "value": "liste vendeurs",
+        "phone": "id tem",
+        "address": "adipisicing non ",
+        "insuranceCompany": "dol",
+        "estimatedCost": ""
+      },
+      {
+        "timestamp": "2018-06-03T17:54:57.919Z",
+        "property": {
+          "id": -84686079,
+          "message": "ut",
+          "name": "1249 Bayer Tunnel",
+          "owner": {
+            "message": "sint"
+          },
+          "address": "nulla labore",
+          "sqFt": "in amet elit veniam sunt",
+          "insuranceCompany": "sit aliquip commodo",
+          "cadastre": "occaecat incididunt sint"
+        },
+        "type": "insurance",
+        "ownerGroup": "legal",
+        "source": "ea sed laboris sint sit",
+        "key": "update",
+        "value": "pus",
+        "phone": "ex",
+        "address": "cupidatat",
+        "insuranceCompany": "eiusmod mollit laboris dolore",
+        "estimatedCost": ""
+      },
+      {
+        "timestamp": "2018-06-03T16:54:56.590Z",
+        "property": {
+          "id": 44912204,
+          "message": "voluptate ad cill",
+          "name": "77663 Prosacco Stream",
+          "owner": {
+            "message": "cillum "
+          },
+          "address": "aliqua sint",
+          "sqFt": "ea elit",
+          "insuranceCompany": "mollit incididunt ex",
+          "cadastre": "consect"
+        },
+        "type": "pus",
+        "ownerGroup": "builder",
+        "source": "dolor",
+        "key": "esse eu ullamco",
+        "value": "nisi",
+        "phone": "adipisicing incididunt eu",
+        "address": "sunt dolore dolor cupidatat",
+        "insuranceCompany": "elit",
+        "estimatedCost": "470.00"
+      },
+      {
+        "timestamp": "2018-06-03T17:39:13.804Z",
+        "property": {
+          "id": 20327437,
+          "message": "adipisicing",
+          "name": "9847 Block Crossing",
+          "owner": {
+            "message": "adipisicing enim exercitation pariatur in"
+          },
+          "address": "elit nisi eiusmod sit laborum",
+          "sqFt": "ex qui aute",
+          "insuranceCompany": "aute",
+          "cadastre": "elit mollit in nisi"
+        },
+        "type": "work",
+        "ownerGroup": "legal",
+        "source": "id",
+        "key": "aute ad elit",
+        "value": "fugiat",
+        "phone": "dolore adipisicing enim qui non",
+        "address": "ipsum aliqua reprehenderit",
+        "insuranceCompany": "ut Lorem ut",
+        "estimatedCost": "861.00"
+      },
+      {
+        "timestamp": "2018-06-03T17:41:53.072Z",
+        "property": {
+          "id": -39273615,
+          "message": "deserunt fugiat minim aute veniam",
+          "name": "5813 Will Oval",
+          "owner": {
+            "message": "ad occaecat laboris aliqua mollit"
+          },
+          "address": "ipsum voluptate",
+          "sqFt": "in pariatur cupid",
+          "insuranceCompany": "aute consequat ex officia ut",
+          "cadastre": "ut Lorem incididunt"
+        },
+        "type": "foundation",
+        "ownerGroup": "legal",
+        "source": "adipisicing a",
+        "key": "incidi",
+        "value": "enim sit",
+        "phone": "id tem",
+        "address": "adipisicing non ",
+        "insuranceCompany": "dol",
+        "estimatedCost": "774.00"
+      },
+      {
+        "timestamp": "2018-06-03T17:54:57.919Z",
+        "property": {
+          "id": -84686079,
+          "message": "ut",
+          "name": "1249 Bayer Tunnel",
+          "owner": {
+            "message": "sint"
+          },
+          "address": "nulla labore",
+          "sqFt": "in amet elit veniam sunt",
+          "insuranceCompany": "sit aliquip commodo",
+          "cadastre": "occaecat incididunt sint"
+        },
+        "type": "insurance",
+        "ownerGroup": "legal",
+        "source": "ea sed laboris sint sit",
+        "key": "irure",
+        "value": "sint sit",
+        "phone": "ex",
+        "address": "cupidatat",
+        "insuranceCompany": "eiusmod mollit laboris dolore",
+        "estimatedCost": "84.00"
+      },
+      {
+        "timestamp": "2018-06-03T16:54:56.590Z",
+        "property": {
+          "id": 44912204,
+          "message": "voluptate ad cill",
+          "name": "77663 Prosacco Stream",
+          "owner": {
+            "message": "cillum "
+          },
+          "address": "aliqua sint",
+          "sqFt": "ea elit",
+          "insuranceCompany": "mollit incididunt ex",
+          "cadastre": "consect"
+        },
+        "type": "pus",
+        "ownerGroup": "builder",
+        "source": "dolor",
+        "key": "esse eu ullamco",
+        "value": "nisi",
+        "phone": "adipisicing incididunt eu",
+        "address": "sunt dolore dolor cupidatat",
+        "insuranceCompany": "elit",
+        "estimatedCost": "470.00"
+      },
+      {
+        "timestamp": "2018-06-03T17:39:13.804Z",
+        "property": {
+          "id": 20327437,
+          "message": "adipisicing",
+          "name": "9847 Block Crossing",
+          "owner": {
+            "message": "adipisicing enim exercitation pariatur in"
+          },
+          "address": "elit nisi eiusmod sit laborum",
+          "sqFt": "ex qui aute",
+          "insuranceCompany": "aute",
+          "cadastre": "elit mollit in nisi"
+        },
+        "type": "work",
+        "ownerGroup": "legal",
+        "source": "id",
+        "key": "aute ad elit",
+        "value": "fugiat",
+        "phone": "dolore adipisicing enim qui non",
+        "address": "ipsum aliqua reprehenderit",
+        "insuranceCompany": "ut Lorem ut",
+        "estimatedCost": "861.00"
+      },
+      {
+        "timestamp": "2018-06-03T17:41:53.072Z",
+        "property": {
+          "id": -39273615,
+          "message": "deserunt fugiat minim aute veniam",
+          "name": "5813 Will Oval",
+          "owner": {
+            "message": "ad occaecat laboris aliqua mollit"
+          },
+          "address": "ipsum voluptate",
+          "sqFt": "in pariatur cupid",
+          "insuranceCompany": "aute consequat ex officia ut",
+          "cadastre": "ut Lorem incididunt"
+        },
+        "type": "foundation",
+        "ownerGroup": "legal",
+        "source": "adipisicing a",
+        "key": "incidi",
+        "value": "enim sit",
+        "phone": "id tem",
+        "address": "adipisicing non ",
+        "insuranceCompany": "dol",
+        "estimatedCost": "774.00"
+      },
+      {
+        "timestamp": "2018-06-03T17:54:57.919Z",
+        "property": {
+          "id": -84686079,
+          "message": "ut",
+          "name": "1249 Bayer Tunnel",
+          "owner": {
+            "message": "sint"
+          },
+          "address": "nulla labore",
+          "sqFt": "in amet elit veniam sunt",
+          "insuranceCompany": "sit aliquip commodo",
+          "cadastre": "occaecat incididunt sint"
+        },
+        "type": "insurance",
+        "ownerGroup": "legal",
+        "source": "ea sed laboris sint sit",
+        "key": "irure",
+        "value": "sint sit",
+        "phone": "ex",
+        "address": "cupidatat",
+        "insuranceCompany": "eiusmod mollit laboris dolore",
+        "estimatedCost": "84.00"
+      },
+      {
+        "timestamp": "2018-06-03T16:54:56.590Z",
+        "property": {
+          "id": 44912204,
+          "message": "voluptate ad cill",
+          "name": "77663 Prosacco Stream",
+          "owner": {
+            "message": "cillum "
+          },
+          "address": "aliqua sint",
+          "sqFt": "ea elit",
+          "insuranceCompany": "mollit incididunt ex",
+          "cadastre": "consect"
+        },
+        "type": "pus",
+        "ownerGroup": "builder",
+        "source": "dolor",
+        "key": "esse eu ullamco",
+        "value": "nisi",
+        "phone": "adipisicing incididunt eu",
+        "address": "sunt dolore dolor cupidatat",
+        "insuranceCompany": "elit",
+        "estimatedCost": "470.00"
+      },
+      {
+        "timestamp": "2018-06-03T17:39:13.804Z",
+        "property": {
+          "id": 20327437,
+          "message": "adipisicing",
+          "name": "9847 Block Crossing",
+          "owner": {
+            "message": "adipisicing enim exercitation pariatur in"
+          },
+          "address": "elit nisi eiusmod sit laborum",
+          "sqFt": "ex qui aute",
+          "insuranceCompany": "aute",
+          "cadastre": "elit mollit in nisi"
+        },
+        "type": "work",
+        "ownerGroup": "legal",
+        "source": "id",
+        "key": "aute ad elit",
+        "value": "fugiat",
+        "phone": "dolore adipisicing enim qui non",
+        "address": "ipsum aliqua reprehenderit",
+        "insuranceCompany": "ut Lorem ut",
+        "estimatedCost": "861.00"
+      },
+      {
+        "timestamp": "2018-06-03T17:41:53.072Z",
+        "property": {
+          "id": -39273615,
+          "message": "deserunt fugiat minim aute veniam",
+          "name": "5813 Will Oval",
+          "owner": {
+            "message": "ad occaecat laboris aliqua mollit"
+          },
+          "address": "ipsum voluptate",
+          "sqFt": "in pariatur cupid",
+          "insuranceCompany": "aute consequat ex officia ut",
+          "cadastre": "ut Lorem incididunt"
+        },
+        "type": "foundation",
+        "ownerGroup": "legal",
+        "source": "adipisicing a",
+        "key": "incidi",
+        "value": "enim sit",
+        "phone": "id tem",
+        "address": "adipisicing non ",
+        "insuranceCompany": "dol",
+        "estimatedCost": "774.00"
+      },
+      {
+        "timestamp": "2018-06-03T17:54:57.919Z",
+        "property": {
+          "id": -84686079,
+          "message": "ut",
+          "name": "1249 Bayer Tunnel",
+          "owner": {
+            "message": "sint"
+          },
+          "address": "nulla labore",
+          "sqFt": "in amet elit veniam sunt",
+          "insuranceCompany": "sit aliquip commodo",
+          "cadastre": "occaecat incididunt sint"
+        },
+        "type": "insurance",
+        "ownerGroup": "legal",
+        "source": "ea sed laboris sint sit",
+        "key": "irure",
+        "value": "sint sit",
+        "phone": "ex",
+        "address": "cupidatat",
+        "insuranceCompany": "eiusmod mollit laboris dolore",
+        "estimatedCost": "84.00"
+      }
+    ]
+  },
+  "PropertiesOverview": {
+    "properties": [
+      {
+        "message": "Ut "
+      }
+    ]
+  },
+  "Property": {
+    "id": -79780683,
+    "message": "veniam irure",
+    "name": "anim cons",
+    "owner": {
+      "message": "eu cillum sed"
+    },
+    "address": "in laboris c",
+    "sqFt": "fugiat ut",
+    "insuranceCompany": "ea dolor nisi Duis et",
+    "cadastre": "cupidatat"
+  },
+  "Owner": {
+    "message": "adipisicing in dolor Excepteur reprehenderit"
+  },
+  "EventsOverview": {
+    "message": "minim nisi velit dolor culpa",
+    "description": "nostrud",
+    "events": [
+      {
+        "timestamp": "et",
+        "property": {
+          "id": -30520268,
+          "message": "consequat",
+          "name": "sunt ullamco",
+          "owner": {
+            "message": "Ut"
+          },
+          "address": "enim laboris eiusmod",
+          "sqFt": "et minim est dolore",
+          "insuranceCompany": "sint ",
+          "cadastre": "culpa"
+        },
+        "type": "plan",
+        "ownerGroup": "owner",
+        "source": "culpa nulla nisi tempor enim",
+        "key": "fugiat do deserunt commodo ullamco",
+        "value": "quis incididunt nostrud",
+        "phone": "sint in est",
+        "address": "eiusmod",
+        "insuranceCompany": "voluptate ad anim enim",
+        "estimatedCost": "sit irure"
+      }
+    ]
+  },
+  "Event": {
+    "timestamp": "irure ipsum",
+    "property": {
+      "id": 8961344,
+      "message": "aute",
+      "name": "cupidatat qui Excepteur ipsum est",
+      "owner": {
+        "message": "culpa"
+      },
+      "address": "dolore aliquip dolor",
+      "sqFt": "dolore id incididunt aute",
+      "insuranceCompany": "repr",
+      "cadastre": "ipsum qui in eu labore"
+    },
+    "type": "foundation",
+    "ownerGroup": "insurance",
+    "source": "et adipisicing",
+    "key": "ex esse officia Duis comm",
+    "value": "nulla do sed",
+    "phone": "e",
+    "address": "amet mollit Excep",
+    "insuranceCompany": "ipsum id pariatur consequa",
+    "estimatedCost": "ex"
+  },
+  "EventSummary": {
+    "timestamp": "proident",
+    "property": {
+      "id": -37442599,
+      "message": "qui",
+      "name": "enim pariatur ea",
+      "owner": {
+        "message": "velit laboru"
+      },
+      "address": "adipisicing ut",
+      "sqFt": "sunt",
+      "insuranceCompany": "velit",
+      "cadastre": "Excepteur"
+    },
+    "type": "insurance",
+    "ownerGroup": "legal"
+  },
+  "Document": {
+    "source": "nulla",
+    "type": "pus"
+  },
+  "Insurance": {
+    "key": "laboris anim",
+    "value": "ex deserunt in in aute",
+    "type": "insurance"
+  },
+  "Builder": {
+    "type": "default",
+    "phone": "sunt commodo aliqua sit",
+    "address": "consequat",
+    "insuranceCompany": "deserunt nisi labore ea",
+    "estimatedCost": "in exercitation"
+  },
+  "User": {
+    "message": "off",
+    "firstName": "Excepteur fugiat id ad non",
+    "lastName": "ipsum dolor",
+    "role": "legal",
+    "username": "sint anim sed irure Lorem"
+  },
+  "ErrorResponse": {
+    "message": "mollit qui veniam in"
+  }
+}
