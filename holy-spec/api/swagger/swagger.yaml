@@ -167,6 +167,7 @@ definitions:
         type: string
         enum:
           - default
+          - architecture
           - foundation
           - roof
           - walls

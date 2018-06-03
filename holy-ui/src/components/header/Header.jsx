@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import config from '../../assets/mock.json';
 
 const headerStyle = {
+  display: 'none',
   padding: '10px 50px',
   backgroundColor: '#B6C9BB',
 };
@@ -19,7 +20,7 @@ export class Header extends Component {
       role,
       message,
     } = config.Page.profile;
-    
+
     return (
       <header className='header' style={headerStyle}>
         <div className='header-hero'>
