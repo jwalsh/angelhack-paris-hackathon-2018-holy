@@ -29,14 +29,11 @@ export class Admin extends Component {
 
         <tr>
 <td>{ event.timestamp} </td>
-<td>{ event.address} </td>
-<td>{ event.estimatedCost} </td>
 <td>{ event.insuranceCompany} </td>
 <td>{ event.ownerGroup} </td>
-<td>{ event.phone} </td>
 <td>{ event.source} </td>
 <td>{ event.type} </td>
-        <td>value} </td>
+        <td>{ event.value} </td>
         </tr>
     );
   }
@@ -51,11 +48,8 @@ export class Admin extends Component {
         <table>
         <tr>
 <th>timestamp </th>
-<th>address</th>
 <th>estimatedCost</th>
-<th>insuranceCompany</th>
 <th>ownerGroup</th>
-<th>phone</th>
 <th>source</th>
 <th>type</th>
         <th>value</th>
