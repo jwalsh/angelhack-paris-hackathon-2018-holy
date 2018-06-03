@@ -4,6 +4,7 @@ import { Footer } from '../components/footer/Footer.jsx';
 import { HolySideNav } from '../components/sideNav/SideNav.jsx';
 import axios from 'axios';
 import config from '../assets/mock.json';
+// import Iframe from 'react-iframe';
 
 const defaultStyle = {
   background: '#fff',
@@ -67,3 +68,11 @@ export class Admin extends Component {
     );
   }
 }
+
+{/* <div>
+  <Header />
+  <HolySideNav />
+  Events
+  <Footer />
+</div>
+   */}

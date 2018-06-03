@@ -12,13 +12,19 @@ const sideNavStyle = {
   top: 0, /* Stay at the top */
   left: 0,
   paddingTop: '60px', /* Place content 60px from the top */
-}
+  textAlign: 'center',
+};
+
+const sideNavTitleStyle = {};
+const sideNavPropertiesStyle = {
+  marginRight: '20px',
+};
 
 export class HolySideNav extends Component {
 
   renderProperty = (property) => {
     return (
-      <Nav className='property-info'>
+      <Nav className='property-info' key={property.id}>
         <NavText className='property-name'>
           {property.name}
         </NavText>

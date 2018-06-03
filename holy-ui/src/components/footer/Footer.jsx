@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 const footerContainerStyle = {
   position: 'fixed',
   minHeight: '100%',
+  width: '86%',
   left: '250px',
   top: '98%',
   bottom: 0,
