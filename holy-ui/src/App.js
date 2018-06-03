@@ -2,7 +2,6 @@ import React, {Component} from 'react';
 import {Switch, Route, Redirect} from 'react-router';
 import {BrowserRouter as Router} from 'react-router-dom'
 import {Admin} from './routes/Admin.jsx';
-import logo from './logo.svg';
 import './App.css';
 
 class App extends Component {
