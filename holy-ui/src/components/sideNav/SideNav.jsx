@@ -33,15 +33,17 @@ export class HolySideNav extends Component {
   }
 
   render() {
-    const { properties } = config.Page;
-
+    const { events } = config.Page;
+    let properties = events.reduce((p, c) => {
+      p[c.property.id] = c.property;
+        return p;
+      }, {})
+    let uniq = Object.keys(properties).map(e => properties[e]);
     return (
       <div className='sideNav' style={sideNavStyle}>
-        <SideNav highlightColor='#E91E63' highlightBgColor='#2c3e50'>
-          <h1 className='sideNav-title' style={sideNavTitleStyle}> Properties </h1>
-          <div className='sideNav-properties' style={sideNavPropertiesStyle}>
-            { properties.map((property, i) => this.renderProperty(property, i)) }
-          </div>
+        <SideNav highlightColor='#E91E63' highlightBgColor='#00bcd4'>
+          <h1> Properties </h1>
+        { uniq.map(property => this.renderProperty(property)) }
       </SideNav>
       </div>
     );

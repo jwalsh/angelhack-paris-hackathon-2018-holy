@@ -15,6 +15,8 @@ export class Admin extends Component {
             className='ownerPage'
             width='100%'
             height='100%'
+            display='block'
+            allowFullScreen
       />
     );
   }
