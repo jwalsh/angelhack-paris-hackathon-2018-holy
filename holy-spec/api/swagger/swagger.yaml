@@ -69,10 +69,6 @@ definitions:
         type: string
       profile:
         $ref: "#/definitions/User"
-      properties:
-        type: array
-        items:
-          $ref: "#/definitions/Property"
       events:
         type: array
         items:

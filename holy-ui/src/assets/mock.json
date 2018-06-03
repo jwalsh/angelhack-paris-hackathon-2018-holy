@@ -1,352 +1,214 @@
 {
 	"Page": {
-		"message": "sint anim incididunt",
+		"message": "officia",
 		"profile": {
-			"message": "consectetur laboris",
-			"firstName": "cupidatat ad minim",
-			"lastName": "non ullamco",
-			"role": "admin",
-			"username": "non in mollit"
+			"message": "irure enim",
+			"firstName": "et veniam sed",
+			"lastName": "ipsum consequat",
+			"role": "builder",
+			"username": "eiusmod aliqua"
 		},
-		"properties": [
-			{
-				"id": 26346220,
-				"message": "labore Lorem culpa",
-				"name": "cupidatat ",
-				"owner": {
-					"message": "laborum"
-				},
-				"address": "mollit nisi adipisicing et minim",
-				"sqFt": "Lorem nulla est a",
-				"insuranceCompany": "incididunt amet est",
-				"cadastre": "ex eu"
-			},
-			{
-				"id": 70006470,
-				"message": "dolor",
-				"name": "aute",
-				"owner": {
-					"message": "in mollit dolor elit eu"
-				},
-				"address": "id Duis proident ex",
-				"sqFt": "nisi id aliquip aliqua",
-				"insuranceCompany": "ea ex cillum aute",
-				"cadastre": "sunt ea proident deserunt"
-			},
-			{
-				"id": 34081507,
-				"message": "dolor ad dolore",
-				"name": "nulla sed",
-				"owner": {
-					"message": "non ut"
-				},
-				"address": "consequat labore",
-				"sqFt": "velit id reprehenderit eu",
-				"insuranceCompany": "esse labore au",
-				"cadastre": "pariatur non"
-			},
-			{
-				"id": 36049064,
-				"message": "aliqua",
-				"name": "proident cupidatat in reprehenderit",
-				"owner": {
-					"message": "ad voluptate dolor sed"
-				},
-				"address": "eiusmod do pariatur ipsum",
-				"sqFt": "est Excepteur mollit ea id",
-				"insuranceCompany": "pariatur in",
-				"cadastre": "exercitation fugiat"
-			},
-			{
-				"id": 76662086,
-				"message": "ad aliqua incididunt magna irure",
-				"name": "cupidatat in minim",
-				"owner": {
-					"message": "ut in"
-				},
-				"address": "est",
-				"sqFt": "laboris cillum culpa in deserunt",
-				"insuranceCompany": "minim occaecat culpa aliqua",
-				"cadastre": "exercitation laborum consectetur tempor"
-			}
-		],
 		"events": [
 			{
-				"timestamp": "cillum nulla in reprehenderit minim",
+				"timestamp": "reprehenderit",
 				"property": {
-					"id": 86139690,
-					"message": "velit ad ea non ut",
-					"name": "officia fugiat eiusmod dolor Ut",
+					"id": 68719575,
+					"message": "aute",
+					"name": "officia est aute sit",
 					"owner": {
-						"message": "ex officia enim voluptate culpa"
+						"message": "Duis adipisicing et"
 					},
-					"address": "voluptate deserunt",
-					"sqFt": "culpa consequat ullamco reprehenderit",
-					"insuranceCompany": "labore laboris laborum tempor",
-					"cadastre": "mo"
+					"address": "aute",
+					"sqFt": "i",
+					"insuranceCompany": "ex veniam et dolor elit",
+					"cadastre": "sun"
 				},
-				"type": "insurance",
-				"ownerGroup": "legal",
-				"source": "anim",
-				"phone": "in laboris",
-				"address": "nostrud Lorem",
-				"insuranceCompany": "aliquip nulla laborum reprehenderit pariatur",
-				"estimatedCost": "fugiat Lorem incididunt"
+				"type": "foundation",
+				"ownerGroup": "owner",
+				"source": "esse Duis",
+				"key": "aliqua",
+				"value": "in incidid",
+				"phone": "quis eu et a",
+				"address": "irure al",
+				"insuranceCompany": "aliquip",
+				"estimatedCost": "elit qui est sint"
 			},
 			{
-				"timestamp": "veniam ipsum in do dolor",
+				"timestamp": "tempor deserunt",
 				"property": {
-					"id": 27333566,
-					"message": "ullamco magna do",
-					"name": "nulla non",
+					"id": -11933054,
+					"message": "sint dolore proident eiusmod",
+					"name": "in",
 					"owner": {
-						"message": "cupidatat commodo"
+						"message": "adipisicing minim id dolor Lorem"
 					},
-					"address": "non enim Duis in",
-					"sqFt": "laborum in ipsum aute dolore",
-					"insuranceCompany": "dolore laboris",
-					"cadastre": "cupid"
+					"address": "ipsum ut quis aliquip anim",
+					"sqFt": "dolore repr",
+					"insuranceCompany": "ad sunt nostrud",
+					"cadastre": "ea in nostrud dolor velit"
+				},
+				"type": "electric",
+				"ownerGroup": "builder",
+				"source": "ut mollit elit dolore",
+				"key": "nisi voluptate aliquip magna sint",
+				"value": "in mollit",
+				"phone": "fugiat dolor laboris",
+				"address": "sit aute adipisicing mollit",
+				"insuranceCompany": "sint mollit exercitation",
+				"estimatedCost": "aliquip labore est"
+			},
+			{
+				"timestamp": "sed consectetur et elit",
+				"property": {
+					"id": -20446162,
+					"message": "sint aliqua",
+					"name": "in Excepteur ullamco in",
+					"owner": {
+						"message": "laboris Ut magna elit"
+					},
+					"address": "consectetur ea eu aliqua",
+					"sqFt": "",
+					"insuranceCompany": "commodo minim adipisicing",
+					"cadastre": "ad proident reprehenderit"
 				},
 				"type": "acte notarial",
-				"ownerGroup": "legal",
-				"source": "nulla sint",
-				"phone": "aliqua Lorem",
-				"address": "sunt occaecat",
-				"insuranceCompany": "proident eiusmod culpa",
-				"estimatedCost": "occaecat dolor fugiat"
-			},
-			{
-				"timestamp": "reprehenderit dolor in et",
-				"property": {
-					"id": -1684768,
-					"message": "officia ullamco Lorem ipsum",
-					"name": "consectetur",
-					"owner": {
-						"message": "labore enim eu dolore in"
-					},
-					"address": "aliquip quis",
-					"sqFt": "et labore",
-					"insuranceCompany": "adipisicing",
-					"cadastre": "incidi"
-				},
-				"type": "pus",
-				"ownerGroup": "builder",
-				"source": "dolor ut amet",
-				"phone": "voluptate",
-				"address": "magna culpa e",
-				"insuranceCompany": "laborum cupidatat",
-				"estimatedCost": "id aliquip"
-			},
-			{
-				"timestamp": "in esse magna mollit",
-				"property": {
-					"id": -11313150,
-					"message": "in cillum",
-					"name": "dolor eu",
-					"owner": {
-						"message": "ame"
-					},
-					"address": "dolore cupidatat non",
-					"sqFt": "occaecat sunt aliqua",
-					"insuranceCompany": "id cupidatat amet",
-					"cadastre": "eu Lorem ipsum"
-				},
-				"type": "insurance",
 				"ownerGroup": "insurance",
-				"source": "nulla minim proident",
-				"phone": "consectetur sed cillum eu esse",
-				"address": "est sed",
-				"insuranceCompany": "enim dolore reprehenderit",
-				"estimatedCost": "aute"
-			},
-			{
-				"timestamp": "ea incididunt qui",
-				"property": {
-					"id": -57975807,
-					"message": "Ut",
-					"name": "esse sed ad",
-					"owner": {
-						"message": "dolore et sit esse"
-					},
-					"address": "ad",
-					"sqFt": "aliqua non",
-					"insuranceCompany": "in Duis ad sed",
-					"cadastre": "magna veniam"
-				},
-				"type": "carpet",
-				"ownerGroup": "owner",
-				"source": "ex c",
-				"phone": "id Ut",
-				"address": "ut in",
-				"insuranceCompany": "in adi",
-				"estimatedCost": "nulla adipisicing Lorem Duis laboris"
+				"source": "Excepteur",
+				"key": "occaecat mollit nulla",
+				"value": "ullamco l",
+				"phone": "dolor labore elit",
+				"address": "reprehenderit culpa",
+				"insuranceCompany": "ut",
+				"estimatedCost": "in dolor"
 			}
 		]
 	},
 	"PropertiesOverview": {
 		"properties": [
 			{
-				"message": "amet minim in cupidatat aliqua"
+				"message": "laboris aute"
 			},
 			{
-				"message": "officia reprehenderit ipsum nisi eu"
+				"message": "pariatur do dolor"
 			},
 			{
-				"message": "officia dolor fugiat ipsum"
+				"message": "Lorem tempor"
 			},
 			{
-				"message": "incididunt cupidatat magna aliqua"
+				"message": "mollit aute dolor commodo labore"
 			}
 		]
 	},
 	"Property": {
-		"id": -69758838,
-		"message": "pariatur",
-		"name": "",
+		"id": -58203825,
+		"message": "sunt est Ut velit officia",
+		"name": "ullamco incididunt enim",
 		"owner": {
-			"message": "eiusmod Lorem nisi ex tempor"
+			"message": "anim pariatur"
 		},
-		"address": "tempor culpa aute ullamco ea",
-		"sqFt": "et",
-		"insuranceCompany": "adipisicing ea",
-		"cadastre": "ea ex"
+		"address": "ut eu irure ipsum laboris",
+		"sqFt": "aliquip nulla do",
+		"insuranceCompany": "aliqua id cillum",
+		"cadastre": "consectetur culpa exercitation in ullamco"
 	},
 	"Owner": {
-		"message": "nulla"
+		"message": "Excepteur elit dolor do"
 	},
 	"EventsOverview": {
-		"message": "sint dolore do cupidatat",
-		"description": "ad occaecat id",
+		"message": "fugiat sunt qui",
+		"description": "occaecat Lorem",
 		"events": [
 			{
-				"timestamp": "laborum Lorem qui incididunt nulla",
+				"timestamp": "nulla dolore",
 				"property": {
-					"id": 53011035,
-					"message": "sunt in deserunt",
-					"name": "mollit Lorem nulla",
+					"id": -85882908,
+					"message": "Duis",
+					"name": "cupidatat minim consectetur dolor",
 					"owner": {
-						"message": "irure id nulla consectetur "
+						"message": "dolore elit ad occaecat pariatur"
 					},
-					"address": "culpa Lorem irure nostrud",
-					"sqFt": "sint dolor esse veniam occaecat",
-					"insuranceCompany": "id",
-					"cadastre": "magna"
+					"address": "reprehenderit voluptate occaecat",
+					"sqFt": "culpa elit enim laborum aute",
+					"insuranceCompany": "Excepteur Ut pariatur velit",
+					"cadastre": "do aliquip"
 				},
-				"type": "insurance",
-				"ownerGroup": "admin",
-				"source": "et culpa",
-				"phone": "esse nostrud sint",
-				"address": "sit ipsum et pariatur mollit",
-				"insuranceCompany": "Ut",
-				"estimatedCost": "sunt fugiat ad proident"
-			},
-			{
-				"timestamp": "reprehen",
-				"property": {
-					"id": -93449589,
-					"message": "in ",
-					"name": "proident est et qui",
-					"owner": {
-						"message": "aliqua in Excepteur pariatur Duis"
-					},
-					"address": "anim ut in pariatur",
-					"sqFt": "proident ex exercitation reprehenderit",
-					"insuranceCompany": "sit dolore proident",
-					"cadastre": "aliqua ullamco in"
-				},
-				"type": "insurance",
-				"ownerGroup": "admin",
-				"source": "aute qui laboris",
-				"phone": "sit minim Excepteur",
-				"address": "dolore commodo tempor",
-				"insuranceCompany": "elit culpa",
-				"estimatedCost": "elit eu Lorem tempor labore"
-			},
-			{
-				"timestamp": "esse veniam in",
-				"property": {
-					"id": 39523229,
-					"message": "nostrud enim",
-					"name": "veniam dolore off",
-					"owner": {
-						"message": "mollit ipsum ullamco occaecat"
-					},
-					"address": "do ut aliqua",
-					"sqFt": "minim elit ad officia",
-					"insuranceCompany": "labore",
-					"cadastre": "pariatur aliqua sint dolore officia"
-				},
-				"type": "acte notarial",
+				"type": "roof",
 				"ownerGroup": "builder",
-				"source": "deserunt ad",
-				"phone": "amet Lorem non in",
-				"address": "Ut esse ut elit c",
-				"insuranceCompany": "deserunt dolor magna in",
-				"estimatedCost": "do nostrud quis esse qui"
+				"source": "irure laborum reprehenderit proident",
+				"key": "sint quis sed commodo",
+				"value": "ipsum deserunt in anim",
+				"phone": "consequat",
+				"address": "consequat nisi",
+				"insuranceCompany": "fugiat aute voluptate amet",
+				"estimatedCost": "nostrud minim sint"
 			}
 		]
 	},
 	"Event": {
-		"timestamp": "culpa",
+		"timestamp": "quis d",
 		"property": {
-			"id": 63545806,
-			"message": "nostrud",
-			"name": "tempor nostrud non ex",
+			"id": 75468578,
+			"message": "laborum veniam E",
+			"name": "pariatur dolor",
 			"owner": {
-				"message": "ut dolore"
+				"message": "qui Duis consectetur"
 			},
-			"address": "irure",
-			"sqFt": "veniam",
-			"insuranceCompany": "nisi ea exercitation ut",
-			"cadastre": "elit culpa"
+			"address": "occaecat voluptate",
+			"sqFt": "magna veniam",
+			"insuranceCompany": "Ut cillum ipsum commodo est",
+			"cadastre": "d"
 		},
 		"type": "electric",
-		"ownerGroup": "admin",
-		"source": "id do eiusmod sint",
-		"phone": "enim",
-		"address": "aliqua ex ut id ullamco",
-		"insuranceCompany": "elit commodo ea",
-		"estimatedCost": "ad"
+		"ownerGroup": "owner",
+		"source": "aliqua culpa do ",
+		"key": "et ad adipisicing eu laboris",
+		"value": "ad labore magna velit adipisicing",
+		"phone": "elit cillum consequat sit",
+		"address": "Ut enim ",
+		"insuranceCompany": "occaecat ut",
+		"estimatedCost": "in"
 	},
 	"EventSummary": {
-		"timestamp": "consequat reprehenderit amet",
+		"timestamp": "nostrud laborum in sed esse",
 		"property": {
-			"id": -29896703,
-			"message": "in ullamco Duis Excepteur magna",
-			"name": "do Lorem ullamco nisi adipisicing",
+			"id": 91229767,
+			"message": "dolor",
+			"name": "Duis pariatur anim dolor",
 			"owner": {
-				"message": "irure"
+				"message": "sint Ut ullamco"
 			},
-			"address": "do incididunt sed nostrud",
-			"sqFt": "in deserun",
-			"insuranceCompany": "veniam consectetur",
-			"cadastre": "minim qui culpa"
+			"address": "ea Lorem est et veniam",
+			"sqFt": "dolor minim",
+			"insuranceCompany": "eiusmod ve",
+			"cadastre": "cillum ullamco deserunt"
 		},
 		"type": "work",
-		"ownerGroup": "legal"
+		"ownerGroup": "admin"
 	},
 	"Document": {
-		"source": "quis",
-		"type": "acte notarial"
+		"source": "dolor",
+		"type": "cadastre"
 	},
 	"Insurance": {
-		"type": "default"
+		"key": "ut consequat adipisicing",
+		"value": "fugiat velit mollit aliqua",
+		"type": "insurance"
 	},
 	"Builder": {
-		"type": "electric",
-		"phone": "irure do laborum",
-		"address": "elit",
-		"insuranceCompany": "velit ex quis ad irure",
-		"estimatedCost": "mollit"
+		"type": "walls",
+		"phone": "aliquip ullamco",
+		"address": "Excepteur nostrud officia",
+		"insuranceCompany": "mollit",
+		"estimatedCost": "consequat qui"
 	},
 	"User": {
-		"message": "labore et aute laboris quis",
-		"firstName": "aliquip Lorem reprehenderit esse amet",
-		"lastName": "officia aute ea ex elit",
-		"role": "legal",
-		"username": "Lorem officia"
+		"message": "reprehenderit",
+		"firstName": "est dolor",
+		"lastName": "id sed consequat",
+		"role": "owner",
+		"username": "in ut dolore"
 	},
 	"ErrorResponse": {
-		"message": "tempor ea occaecat id non"
+		"message": "in"
 	}
 }
