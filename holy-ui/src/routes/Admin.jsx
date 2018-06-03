@@ -85,7 +85,6 @@ export class Admin extends Component {
   render() {
     return (
       <div style={defaultStyle}>
-        <Header />
           <div className='sideNav' style={sideNavStyle}>
             <SideNav highlightColor='#888' highlightBgColor='#fff' onItemSelection={ (id) => {
                 this.onNavChange(id);
@@ -111,7 +110,6 @@ export class Admin extends Component {
             { this.state.id ? events.filter(e => e.property.id === this.state.id).map(event => this.renderEvent(event)) : events.map(event => this.renderEvent(event)) }
           </tbody>
         </table>
-      <Footer/>
     </div>
     );
   }
