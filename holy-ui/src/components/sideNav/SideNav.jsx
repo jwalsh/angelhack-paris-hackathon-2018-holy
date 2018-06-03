@@ -5,8 +5,8 @@ import config from '../../assets/mock.json';
 const sideNavStyle = {
   height: '100%', /* 100% Full-height */
   position: 'fixed', /* Stay in place */
-  background: '#2c3e50',
-  color: '#FFF',
+  background: '#fff',
+  color: '#888',
   width: '250px',
   zIndex: 1, /* Stay on top */
   top: 0, /* Stay at the top */
@@ -35,7 +35,7 @@ export class HolySideNav extends Component {
     let uniq = Object.keys(properties).map(e => properties[e]);
     return (
       <div className='sideNav' style={sideNavStyle}>
-        <SideNav highlightColor='#E91E63' highlightBgColor='#00bcd4'>
+        <SideNav highlightColor='#888' highlightBgColor='#fff'>
           <h1> Properties </h1>
         { uniq.map(property => this.renderProperty(property)) }
       </SideNav>
