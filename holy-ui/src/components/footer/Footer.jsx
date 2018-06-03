@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 const footerContainerStyle = {
   position: 'fixed',
   minHeight: '100%',
-  left: '220px',
+  left: '250px',
   top: '98%',
   bottom: 0,
   right: 0,
