@@ -30,8 +30,8 @@ export class Admin extends Component {
 
         <tr>
           <td><pre>{ event.timestamp}</pre></td>
-          <td><b>{ event.property.id}</b></td>
-          <td>{ event.insuranceCompany} </td>
+          <td><b>{ event.property.name}</b></td>
+          <td>{ event.estimatedCost} </td>
           <td>{ event.ownerGroup} </td>
           <td>{ event.source} </td>
           <td>{ event.type} </td>
@@ -49,7 +49,7 @@ export class Admin extends Component {
         <table>
         <tr>
         <th>timestamp </th>
-        <th>Property Identifier</th>
+        <th>Property</th>
         <th>Estimated Cost</th>
         <th>Owner Group</th>
         <th>Source</th>
