@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import SideNav, { Nav, NavIcon, NavText } from 'react-sidenav';
+import SideNav, { Nav, NavText } from 'react-sidenav';
 import config from '../../assets/mock.json';
 
 const sideNavStyle = {
@@ -15,16 +15,11 @@ const sideNavStyle = {
   textAlign: 'center',
 };
 
-const sideNavTitleStyle = {};
-const sideNavPropertiesStyle = {
-  marginRight: '20px',
-};
-
 export class HolySideNav extends Component {
 
   renderProperty = (property) => {
     return (
-      <Nav className='property-info' key={property.id}>
+      <Nav className='property-info' key={property.id} id={property.id}>
         <NavText className='property-name'>
           {property.name}
         </NavText>
@@ -41,7 +36,9 @@ export class HolySideNav extends Component {
     let uniq = Object.keys(properties).map(e => properties[e]);
     return (
       <div className='sideNav' style={sideNavStyle}>
-        <SideNav highlightColor='#888' highlightBgColor='#fff'>
+        <SideNav highlightColor='#888' highlightBgColor='#fff' onItemSelection={ (id) => {
+            window.id = id;
+          }}>
           <h1> Properties </h1>
         { uniq.map(property => this.renderProperty(property)) }
       </SideNav>

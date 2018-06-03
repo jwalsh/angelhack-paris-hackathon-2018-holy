@@ -18,7 +18,6 @@ export class Header extends Component {
       firstName,
       lastName,
       role,
-      message,
     } = config.Page.profile;
 
     return (
