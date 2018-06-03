@@ -7,6 +7,7 @@ import config from '../assets/mock.json';
 // import Iframe from 'react-iframe';
 
 const defaultStyle = {
+    paddingLeft: '260px',
   background: '#fff',
   color: '#888'
     };
@@ -28,18 +29,18 @@ export class Admin extends Component {
 
 
         <tr>
-<td>{ event.timestamp} </td>
-<td>{ event.insuranceCompany} </td>
-<td>{ event.ownerGroup} </td>
-<td>{ event.source} </td>
-<td>{ event.type} </td>
-        <td>{ event.value} </td>
+          <td><pre>{ event.timestamp}</pre></td>
+          <td><b>{ event.property.id}</b></td>
+          <td>{ event.insuranceCompany} </td>
+          <td>{ event.ownerGroup} </td>
+          <td>{ event.source} </td>
+          <td>{ event.type} </td>
+          <td>{ event.value} </td>
         </tr>
     );
   }
 
     render() {
-        console.log(config.Page.events);
     return (
       <div style={defaultStyle}>
         <Header />
@@ -47,15 +48,16 @@ export class Admin extends Component {
         <h2>Events</h2>
         <table>
         <tr>
-<th>timestamp </th>
-<th>estimatedCost</th>
-<th>ownerGroup</th>
-<th>source</th>
-<th>type</th>
-        <th>value</th>
+        <th>timestamp </th>
+        <th>Property Identifier</th>
+        <th>Estimated Cost</th>
+        <th>Owner Group</th>
+        <th>Source</th>
+        <th>Type</th>
+        <th>Value</th>
         </tr>
         { config.Page.events.map(event => this.renderEvent(event)) }
-</table>
+        </table>
 
         <Footer />
       </div>
