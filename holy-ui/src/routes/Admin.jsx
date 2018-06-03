@@ -33,7 +33,6 @@ export class Admin extends Component {
           <td><b>{ event.property.name}</b></td>
           <td>{ event.estimatedCost} </td>
           <td>{ event.ownerGroup} </td>
-          <td>{ event.source} </td>
           <td>{ event.type} </td>
           <td>{ event.value} </td>
         </tr>
@@ -52,7 +51,6 @@ export class Admin extends Component {
         <th>Property</th>
         <th>Estimated Cost</th>
         <th>Owner Group</th>
-        <th>Source</th>
         <th>Type</th>
         <th>Value</th>
         </tr>
