@@ -37,7 +37,7 @@ export class Admin extends Component {
   constructor(props) {
       super(props);
       this.state = {
-        id: 0,
+        id: null,
       }
       this.renderEvent = this.renderEvent.bind(this);
       this.getEvent = this.getEvent.bind(this);
@@ -59,13 +59,13 @@ export class Admin extends Component {
   }
 
   getEvent(propertyId) {
-    let event;
+    let events = [];
     config.Page.events.forEach((ev) => {
       if(ev.property.id === propertyId) {
-        event = ev;
+        events.push(ev);
       }
     });
-    return event;
+    return events;
   }
 
   renderProperty = (property) => {
@@ -81,6 +81,7 @@ export class Admin extends Component {
   onNavChange(id) {
     return this.setState({id: id});
   }
+
   render() {
     return (
       <div style={defaultStyle}>
@@ -107,7 +108,7 @@ export class Admin extends Component {
             </tr>
           </thead>
           <tbody>
-            { this.state.id ? this.renderEvent(this.getEvent(this.state.id)) : config.Page.events.map(event => this.renderEvent(event)) }
+            { this.state.id ? this.getEvent(this.state.id).map(event => this.renderEvent(event)) : config.Page.events.map(event => this.renderEvent(event)) }
           </tbody>
         </table>
       <Footer/>
