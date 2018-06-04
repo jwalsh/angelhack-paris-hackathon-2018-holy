@@ -25,6 +25,7 @@ const sideNavStyle = {
 };
 
 const { events } = config.Page;
+
 let properties = events.reduce((p, c) => {
   p[c.property.id] = c.property;
   return p;
@@ -45,9 +46,9 @@ export class Admin extends Component {
       this.onNavChange = this.onNavChange.bind(this);
   }
 
-  renderEvent = (event) => {
+  renderEvent = (event, i) => {
       return (
-        <tr key={event.property.id}>
+        <tr key={i}>
           <td><pre>{ event.timestamp}</pre></td>
           <td><b>{ event.property.name}</b></td>
           <td>{ event.estimatedCost} </td>
@@ -85,7 +86,6 @@ export class Admin extends Component {
   render() {
     return (
       <div style={defaultStyle}>
-        <Header />
           <div className='sideNav' style={sideNavStyle}>
             <SideNav highlightColor='#888' highlightBgColor='#fff' onItemSelection={ (id) => {
                 this.onNavChange(id);
@@ -108,10 +108,9 @@ export class Admin extends Component {
             </tr>
           </thead>
           <tbody>
-            { this.state.id ? this.getEvent(this.state.id).map(event => this.renderEvent(event)) : config.Page.events.map(event => this.renderEvent(event)) }
+            { this.state.id ? events.filter(e => e.property.id === this.state.id).map(event => this.renderEvent(event)) : events.map(event => this.renderEvent(event)) }
           </tbody>
         </table>
-      <Footer/>
     </div>
     );
   }
