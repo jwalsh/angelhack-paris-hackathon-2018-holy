@@ -94,7 +94,6 @@ export class Admin extends Component {
             { uniq.map(property => this.renderProperty(property)) }
           </SideNav>
           </div>
-        <h2>Events</h2>
         <table>
           <thead>
             <tr>
