@@ -10,7 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "faker": "^4.1.0",
-    "lodash": "^4.17.10",
+    "lodash": "^4.17.21",
     "stochastic": "0.0.14"
   }
 }
